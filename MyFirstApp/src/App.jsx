@@ -7,13 +7,17 @@ import Lecture12 from './Lecture12'
  
 
 function App() {
+
+       function call(){
+         alert("Kya kiya re tune")
+       }
+       
     return (
       <div>
         <h1>This is My Fist Component </h1>
-        
+        <button onClick={call}>Click me </button>
           <Lecture12/>
-      
-
+       
       </div>
     )
 }
