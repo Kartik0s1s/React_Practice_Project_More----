@@ -1,10 +1,14 @@
-function user(userObj){
+function User({props}){
+   
     return (
     <div>
-       <h1> Name={userObj.name}</h1>
-        <h1> Name={userObj.age}</h1>
-         <h1> Name={userObj.city}</h1>
-          <h1> Name={userObj.profession}</h1>
+       <hr />
+
+       <h1> Name{props.name}</h1>
+       <h1> Age{props.age}</h1>
+       <h1> City{props.city}</h1>
+
+       <hr />
     </div>
     )
 }
